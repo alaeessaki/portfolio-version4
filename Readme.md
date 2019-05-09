@@ -4,7 +4,7 @@ well this is a protfolio designed by me using adobe xd
 
 ## Preview
 
-![preview](build/mockup-preview.png)
+![preview](Web.png)
 
 ## built using 
 
