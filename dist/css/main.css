@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Lato Light";
+  src: url("../../assets/fonts/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato Medium";
+  src: url("../../assets/fonts/Lato-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Pattaya";
+  src: url("../../assets/fonts/Pattaya-Regular.ttf");
+}
+
+body header .navbar .navbar-brand {
+  font-family: "Pattaya";
+  font-size: 34px;
+  color: white;
+  margin-left: 80px;
+}
+
+body header .navbar .navbar-collapse .navbar-nav {
+  margin-right: 50px !important;
+}
+
+body header .navbar .navbar-collapse .navbar-nav .nav-item {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+body header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+
+body header .navbar .navbar-collapse .navbar-nav .nav-item .spec {
+  color: white;
+  background-color: #0071BC;
+  border-radius: 30px;
+  margin-top: 5px;
+  padding: 3px 15px;
+}
+
+body header .first-section .hero {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body header .first-section .hero img {
+  width: 190px;
+  position: relative;
+  top: 38%;
+  left: 34%;
+}
+
+body header .first-section .pres {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+body header .first-section .pres h4 {
+  margin-top: 14%;
+  text-align: center;
+  font-family: "Lato Medium";
+  font-weight: 100;
+  line-height: 55px;
+  font-size: 22px;
+}
+
+body header .first-section .pres div a {
+  text-decoration: none;
+  font-family: "Lato Medium";
+  border: 2px solid #0071BC;
+  padding: 5px 18px !important;
+  margin-top: 35px;
+  margin-right: 20px;
+  color: #0071BC;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+body header .first-section .pres div a:hover {
+  background-color: #0071BC;
+  color: white;
+}
+
+body header .backg {
+  position: absolute;
+  z-index: -6000;
+  top: -30%;
+  left: -159px;
+}
+
+body header .backg img {
+  width: 38rem;
+}
+
+body header .backg2 {
+  position: absolute;
+  z-index: -6000;
+  top: -30%;
+  left: -195px;
+}
+
+body header .backg2 img {
+  width: 43rem;
+}
+
+body header .mouse img {
+  width: 2.5vw;
+  height: 2.5vw;
+  margin-top: 130px;
+  cursor: pointer;
+}
+
+body .decription-section {
+  margin-top: 100px;
+  margin-bottom: 120px;
+  text-align: center;
+  background-color: #0071BC;
+  color: white;
+  font-family: "Lato Medium";
+  position: relative;
+}
+
+body .decription-section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5vh;
+  left: 0;
+  background-color: #0071BC;
+  opacity: 0.38;
+}
+
+body .decription-section .single-row {
+  padding: 60px 100px;
+}
+
+body .decription-section .single-row h4 {
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+body .decription-section .single-row p {
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+
+body .decription-section .single-row a {
+  color: white;
+  text-decoration: none;
+  float: right;
+  border: 2px solid white;
+  padding: 3px 25px;
+}
+
+body .cards-container .single-row {
+  padding: 30px 80px;
+}
+
+body .cards-container .single-row .card {
+  margin-bottom: 60px;
+  border: 2px solid black;
+  border-radius: 0 !important;
+}
+
+body .cards-container .single-row .card .card-body .card-title {
+  text-align: center;
+  font-weight: 600;
+}
+
+body .cards-container .single-row .card .card-body .card-img-top {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+body .cards-container .single-row .card .spec-card {
+  padding: 15px 0 !important;
+}
+
+body .recent-work .single-row .work-cont {
+  padding: 10px 120px;
+}
+
+body .recent-work .single-row .work-cont .card {
+  background-color: #0071BC;
+  border: 0 !important;
+  border-radius: 0 !important;
+  height: 12rem;
+}
+
+body .recent-work .single-row .af-suite a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+body .recent-work .single-row .back-img {
+  top: 20px;
+  left: 30px;
+}
+
+body .recent-work .single-row .back-img .card {
+  opacity: .34;
+}
+/*# sourceMappingURL=main.css.map */

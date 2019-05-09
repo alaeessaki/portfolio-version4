@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "Lato Light";
+    src: url("../../assets/fonts/Lato-Light.ttf");
+};
+@font-face {
+    font-family: "Lato Medium";
+    src: url("../../assets/fonts/Lato-Medium.ttf");
+};
+@font-face {
+    font-family: "Pattaya";
+    src: url("../../assets/fonts/Pattaya-Regular.ttf");
+};
+
+$primary-color:#0071BC;
+
+body{
+    header{
+
+
+        .navbar{
+            .navbar-brand{
+                font-family: "Pattaya";
+                font-size: 34px;
+                color:white;
+                margin-left: 80px;
+                
+                
+            }
+            .navbar-collapse{
+                .navbar-nav{
+                    margin-right: 50px !important;
+                    .nav-item{
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        .nav-link{
+                            color:black;
+                        }
+                        .spec{
+                            color:white;
+                            background-color:$primary-color;
+                            border-radius: 30px;
+                            margin-top:5px;
+                            padding: 3px 15px;
+                           
+                        }
+                    }
+                }
+            }
+        }
+        .first-section{
+            .hero{
+                flex:1;
+                img{
+                    width: 190px;
+                    position: relative;
+                    top: 38%;
+                    left: 34%;
+                }
+            }
+            .pres{
+                flex:2;
+                h4{
+                    margin-top: 14%;
+                    text-align:center;
+                    font-family: "Lato Medium";
+                    font-weight: 100;
+                    line-height: 55px;
+                    font-size: 22px;
+                }
+                div{
+                    
+                    a{
+                        text-decoration: none;
+                        font-family: "Lato Medium";
+                        border:2px solid $primary-color;
+                        padding: 5px 18px !important;
+                        margin-top: 35px;
+                        margin-right: 20px;
+                        color:$primary-color;
+                        font-weight: 600;
+                        font-size: 15px;
+
+                        &:hover{
+                            background-color: $primary-color;
+                            color:white;
+                        }
+                    }
+                }
+            }
+        }
+        .backg{
+            position: absolute;
+            z-index: -6000;
+            top: -30%;
+            left: -159px;
+            img{
+                width: 38rem;
+            }
+        }
+        .backg2{
+            position: absolute;
+            z-index: -6000;
+            top: -30%;
+            left: -195px;
+            img{
+                width: 43rem;
+            }
+        }
+        .mouse{
+            img{
+                width:2.5vw;
+                height: 2.5vw;
+                margin-top: 130px;
+                cursor: pointer;
+           
+            }
+        }
+    }
+    .decription-section{
+        margin-top: 100px;
+        margin-bottom: 120px;
+        text-align: center;
+        background-color: $primary-color;
+        color:white;
+        font-family: "Lato Medium";
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            width:100%;
+            height: 5vh;
+            left: 0;
+            background-color:$primary-color;
+            opacity: 0.38;
+        }
+        .single-row{
+            padding: 60px 100px;
+            h4{
+                font-size: 26px;
+                margin-bottom: 40px;
+            }
+            p{
+                margin-bottom: 40px;
+                line-height: 30px;
+            }
+            a{
+                color:white;
+                text-decoration: none;
+                float: right;
+                border:2px solid white;
+                padding: 3px 25px;
+            }
+        }
+    }
+    .cards-container{
+        .single-row{
+            padding: 30px 80px;
+            .card{
+                margin-bottom: 60px;
+                border:2px solid black;
+                border-radius: 0 !important;
+                .card-body{
+                    .card-title{
+                        text-align: center;
+                        font-weight: 600;
+                    }
+                    .card-img-top{
+                        margin-top:40px;
+                        margin-bottom:40px;
+                    }
+                }
+                .spec-card{
+                    padding: 15px 0 !important;
+                }
+            }
+        }
+    }
+    .recent-work{
+
+        .single-row{
+            .title{
+
+            }
+            .work-cont{
+                    padding: 10px 120px;
+                .card{
+                    background-color: $primary-color;
+                    border:0 !important;
+                    border-radius: 0 !important;
+                    height: 12rem;
+                    .card-body{
+
+                    }
+                }
+            }
+            .af-suite{
+                a{
+                    font-size: 18px;
+                    text-decoration: none;
+                    color:black;
+                    text-transform: uppercase;
+                }
+            }
+            .back-img{
+                top:20px;
+                left: 30px;
+                .card{
+                    opacity: .34;
+                }
+            }
+        }
+    }
+}
