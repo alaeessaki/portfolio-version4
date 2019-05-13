@@ -14,17 +14,14 @@
 $primary-color:#0071BC;
 
 body{
+    overflow-x: hidden;
     header{
-
-
         .navbar{
             .navbar-brand{
                 font-family: "Pattaya";
                 font-size: 34px;
                 color:white;
                 margin-left: 80px;
-                
-                
             }
             .navbar-collapse{
                 .navbar-nav{
@@ -40,8 +37,7 @@ body{
                             background-color:$primary-color;
                             border-radius: 30px;
                             margin-top:5px;
-                            padding: 3px 15px;
-                           
+                            padding: 3px 15px; 
                         }
                     }
                 }
@@ -68,7 +64,6 @@ body{
                     font-size: 22px;
                 }
                 div{
-                    
                     a{
                         text-decoration: none;
                         font-family: "Lato Medium";
@@ -79,7 +74,6 @@ body{
                         color:$primary-color;
                         font-weight: 600;
                         font-size: 15px;
-
                         &:hover{
                             background-color: $primary-color;
                             color:white;
@@ -112,7 +106,6 @@ body{
                 height: 2.5vw;
                 margin-top: 130px;
                 cursor: pointer;
-           
             }
         }
     }
@@ -176,11 +169,7 @@ body{
         }
     }
     .recent-work{
-
         .single-row{
-            .title{
-
-            }
             .work-cont{
                     padding: 10px 120px;
                 .card{
@@ -188,9 +177,6 @@ body{
                     border:0 !important;
                     border-radius: 0 !important;
                     height: 12rem;
-                    .card-body{
-
-                    }
                 }
             }
             .af-suite{
@@ -199,6 +185,7 @@ body{
                     text-decoration: none;
                     color:black;
                     text-transform: uppercase;
+                    text-decoration: underline;
                 }
             }
             .back-img{
@@ -206,6 +193,112 @@ body{
                 left: 30px;
                 .card{
                     opacity: .34;
+                }
+            }
+        }
+    }
+    .what-i-can-do-sec{
+        position: relative;
+        margin-top:6rem;
+        .single-row{
+            .red-sec{
+                flex:1;
+                margin-top: 5rem;
+                h5{
+                    font-family: "Lato Medium";
+                }
+                ul{
+                    line-height: 40px;
+                    li{
+                        font-weight: bold;
+                        font-family: "Lato Medium";
+                        margin-bottom: 20px;
+                    }
+                }
+                .button{
+                    a{
+                        text-decoration: none;
+                        font-family: "Lato Medium";
+                        border:2px solid $primary-color;
+                        padding: 5px 18px !important;
+                        margin-top: 35px;
+                        margin-right: 20px;
+                        color:$primary-color;
+                        font-weight: 600;
+                        font-size: 15px;
+                        float: right;
+        
+                        &:hover{
+                            background-color: $primary-color;
+                            color:white;
+                        }
+                    }
+                }
+            }
+            .illust-sec{
+                flex:1;
+                .ill-img{
+                    position: relative;
+                    transform: scaleX(-1);
+                    z-index: 6000;
+                    width: 27%;
+                    left: 55%;
+                    top:28%;
+                }
+            }
+        }
+        .bac-img{
+            position: absolute;
+            z-index: -6000;   
+            left:70%;
+            top:5%;
+            img{
+                width:28rem;
+            }
+             
+        }
+        .bac-sec-img{
+            position: absolute;
+            z-index: -6000; 
+            top:3%;
+            left:67%;
+            img{
+                width:32rem;
+            }
+            
+        }
+    }
+    footer{
+        margin-top: 9rem;
+        background-color: $primary-color;
+        .single-row{
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+
+            .logo{
+                a{
+                    font-family: "Pattaya";
+                    font-size: 34px;
+                    color:white;
+                    text-decoration: none !important;
+                }
+            }
+            .redaction{
+                color: white;
+                font-family: "Lato Medium";
+            }
+            .reseaux{
+                a{
+                    color:white;
+                    font-size: 24px;
+                    margin: 0px 10px;
+                }
+            }
+            .copyrights{
+                color:white;
+                a{
+                    text-decoration: none;
+                    color:white;
                 }
             }
         }

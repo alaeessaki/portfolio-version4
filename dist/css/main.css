@@ -13,6 +13,10 @@
   src: url("../../assets/fonts/Pattaya-Regular.ttf");
 }
 
+body {
+  overflow-x: hidden;
+}
+
 body header .navbar .navbar-brand {
   font-family: "Pattaya";
   font-size: 34px;
@@ -197,6 +201,7 @@ body .recent-work .single-row .af-suite a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 body .recent-work .single-row .back-img {
@@ -206,5 +211,124 @@ body .recent-work .single-row .back-img {
 
 body .recent-work .single-row .back-img .card {
   opacity: .34;
+}
+
+body .what-i-can-do-sec {
+  position: relative;
+  margin-top: 6rem;
+}
+
+body .what-i-can-do-sec .single-row .red-sec {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 5rem;
+}
+
+body .what-i-can-do-sec .single-row .red-sec h5 {
+  font-family: "Lato Medium";
+}
+
+body .what-i-can-do-sec .single-row .red-sec ul {
+  line-height: 40px;
+}
+
+body .what-i-can-do-sec .single-row .red-sec ul li {
+  font-weight: bold;
+  font-family: "Lato Medium";
+  margin-bottom: 20px;
+}
+
+body .what-i-can-do-sec .single-row .red-sec .button a {
+  text-decoration: none;
+  font-family: "Lato Medium";
+  border: 2px solid #0071BC;
+  padding: 5px 18px !important;
+  margin-top: 35px;
+  margin-right: 20px;
+  color: #0071BC;
+  font-weight: 600;
+  font-size: 15px;
+  float: right;
+}
+
+body .what-i-can-do-sec .single-row .red-sec .button a:hover {
+  background-color: #0071BC;
+  color: white;
+}
+
+body .what-i-can-do-sec .single-row .illust-sec {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body .what-i-can-do-sec .single-row .illust-sec .ill-img {
+  position: relative;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  z-index: 6000;
+  width: 27%;
+  left: 55%;
+  top: 28%;
+}
+
+body .what-i-can-do-sec .bac-img {
+  position: absolute;
+  z-index: -6000;
+  left: 70%;
+  top: 5%;
+}
+
+body .what-i-can-do-sec .bac-img img {
+  width: 28rem;
+}
+
+body .what-i-can-do-sec .bac-sec-img {
+  position: absolute;
+  z-index: -6000;
+  top: 3%;
+  left: 67%;
+}
+
+body .what-i-can-do-sec .bac-sec-img img {
+  width: 32rem;
+}
+
+body footer {
+  margin-top: 9rem;
+  background-color: #0071BC;
+}
+
+body footer .single-row {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+body footer .single-row .logo a {
+  font-family: "Pattaya";
+  font-size: 34px;
+  color: white;
+  text-decoration: none !important;
+}
+
+body footer .single-row .redaction {
+  color: white;
+  font-family: "Lato Medium";
+}
+
+body footer .single-row .reseaux a {
+  color: white;
+  font-size: 24px;
+  margin: 0px 10px;
+}
+
+body footer .single-row .copyrights {
+  color: white;
+}
+
+body footer .single-row .copyrights a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
