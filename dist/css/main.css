@@ -190,10 +190,61 @@ body .recent-work .single-row .work-cont {
 }
 
 body .recent-work .single-row .work-cont .card {
-  background-color: #0071BC;
   border: 0 !important;
   border-radius: 0 !important;
-  height: 12rem;
+}
+
+body .recent-work .single-row .work-cont .card:hover .vplus {
+  display: unset;
+}
+
+body .recent-work .single-row .work-cont .card:hover img {
+  -webkit-filter: brightness(60%);
+  /* Safari 6.0 - 9.0 */
+  filter: brightness(30%);
+  -webkit-transition: -webkit-filter 0.16s;
+  transition: -webkit-filter 0.16s;
+  transition: filter 0.16s;
+  transition: filter 0.16s, -webkit-filter 0.16s;
+}
+
+body .recent-work .single-row .work-cont .card img {
+  cursor: pointer;
+}
+
+body .recent-work .single-row .work-cont .card .vplus {
+  color: white;
+  font-weight: 600;
+  top: 30%;
+  left: 38%;
+  display: none;
+  cursor: pointer;
+}
+
+body .recent-work .single-row .work-cont .card a {
+  background-color: #0071BC;
+  font-family: "Lato Medium";
+  color: white;
+  border: 1px solid #0071BC;
+}
+
+body .recent-work .single-row .work-cont .card a:hover {
+  background-color: white;
+  color: #0071BC;
+}
+
+body .recent-work .single-row .modal-dialog .modal-content .modal-body img {
+  width: 100%;
+}
+
+body .recent-work .single-row .modal-dialog .modal-content .modal-footer button {
+  background-color: #069bff !important;
+  color: white;
+}
+
+body .recent-work .single-row .modal-dialog .modal-content .modal-footer a button {
+  background-color: #0071BC !important;
+  color: white;
 }
 
 body .recent-work .single-row .af-suite a {
@@ -202,15 +253,6 @@ body .recent-work .single-row .af-suite a {
   color: black;
   text-transform: uppercase;
   text-decoration: underline;
-}
-
-body .recent-work .single-row .back-img {
-  top: 20px;
-  left: 30px;
-}
-
-body .recent-work .single-row .back-img .card {
-  opacity: .34;
 }
 
 body .what-i-can-do-sec {

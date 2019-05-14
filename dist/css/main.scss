@@ -12,6 +12,7 @@
 };
 
 $primary-color:#0071BC;
+$secondary-color:rgb(6, 155, 255);
 
 body{
     overflow-x: hidden;
@@ -151,7 +152,7 @@ body{
             .card{
                 margin-bottom: 60px;
                 border:2px solid black;
-                border-radius: 0 !important;
+                border-radius: 0 !important;    
                 .card-body{
                     .card-title{
                         text-align: center;
@@ -173,10 +174,67 @@ body{
             .work-cont{
                     padding: 10px 120px;
                 .card{
-                    background-color: $primary-color;
                     border:0 !important;
                     border-radius: 0 !important;
-                    height: 12rem;
+
+                    &:hover{
+                        .vplus{
+                            display: unset;
+                        }
+                        img{
+                            -webkit-filter: brightness(60%); /* Safari 6.0 - 9.0 */
+                            filter: brightness(30%);
+                            transition: filter 0.16s;
+                        }
+                    }
+                    img{
+                        cursor: pointer;
+                    }
+                    .vplus{
+                        color:white; 
+                        font-weight: 600;
+                        top:30%;
+                        left:38%;
+                        display: none;
+                        cursor: pointer;
+                    }
+                    a{
+                        background-color: $primary-color;
+                        font-family: "Lato Medium";
+                        color: white;
+                        border:1px solid $primary-color;
+                        &:hover{
+                            background-color: white;
+                            color:$primary-color;
+                        }                        
+                    }
+                }
+            }
+            .modal-dialog{
+                .modal-content{
+                    .modal-header{
+                        button{
+
+                        }
+                    }
+                    .modal-body{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .modal-footer{
+                        
+                        button{
+                            background-color: $secondary-color !important;
+                            color:white;
+                        }
+                        a{
+                            button{
+                                background-color: $primary-color !important;
+                                color:white;
+                            }
+                        }
+                    }
                 }
             }
             .af-suite{
@@ -186,13 +244,6 @@ body{
                     color:black;
                     text-transform: uppercase;
                     text-decoration: underline;
-                }
-            }
-            .back-img{
-                top:20px;
-                left: 30px;
-                .card{
-                    opacity: .34;
                 }
             }
         }
@@ -304,3 +355,5 @@ body{
         }
     }
 }
+
+
