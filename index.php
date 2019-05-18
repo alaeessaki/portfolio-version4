@@ -1,10 +1,12 @@
 <?php
-$db = new PDO("mysql:host=localhost;dbname=portfolio;charset=UTF8", "root", "");
-$sql = "SELECT * FROM projects";
+require "admin/database.php";
+
+$db = Database::connect();
+$sql = "SELECT * FROM projects WHERE favorite=1";
 $stmt = $db->query($sql);
 $stmt->execute();
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
+Database::disconnect();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +16,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="shortcut icon" href="/favicon.ico?v=2" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico?v=2" type="image/x-icon">
     <!--Bootstrap-->
     <link rel="stylesheet" href="lib/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <!--Main-->
@@ -29,10 +31,9 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
 <!-- Header section -->
 <header>
-
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">AE</a>
+        <a class="navbar-brand" href="index.php">AE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,13 +42,13 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-4">
                 <li class="nav-item mr-4">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item mr-4">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="pages/about/about.html">About</a>
                 </li>
                 <li class="nav-item mr-4">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="pages/portfolio/portfolio.php">Portfolio</a>
                 </li>
                 <li class="nav-item mr-4">
                     <a class="nav-link spec" href="#">Contact</a>
@@ -184,7 +185,8 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <div class="card mr-sm-0 mr-md-5 mr-lg-5 mr-xl-5 mb-5 position-relative" style="width: 18rem;">
                 <img class="card-img-top" src="assets/projects-imgs/<?= $row['image'] ?>" data-toggle="modal"
                      data-target="#exampleModal" onclick="getrow('<?=$row['name']?>','<?=$row['image']?>','<?=$row['description']?>','<?=$row['technologies']?>','<?=$row['github']?>')">
-                <p class="vplus position-absolute">See More</p>
+                <p class="vplus position-absolute" data-toggle="modal"
+                     data-target="#exampleModal" onclick="getrow('<?=$row['name']?>','<?=$row['image']?>','<?=$row['description']?>','<?=$row['technologies']?>','<?=$row['github']?>')">See More</p>
                 <a class="text-decoration-none p-1 d-flex align-items-center justify-content-center" href="<?=$row['github']?>"><p class="m-0">github source <i class="fab fa-github-square"></i> </p></a>
             </div>
             <?php endforeach;?>

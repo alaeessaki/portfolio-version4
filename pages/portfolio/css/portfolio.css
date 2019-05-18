@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Lato Light";
+  src: url("../../../assets/fonts/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato Medium";
+  src: url("../../../assets/fonts/Lato-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Pattaya";
+  src: url("../../../assets/fonts/Pattaya-Regular.ttf");
+}
+
+body main .projects-section #all, body main .projects-section #website, body main .projects-section #mobileapp, body main .projects-section #webapp, body main .projects-section #game, body main .projects-section #others {
+  margin-top: 6rem;
+}
+
+body main .projects-section #all .project-container .card, body main .projects-section #website .project-container .card, body main .projects-section #mobileapp .project-container .card, body main .projects-section #webapp .project-container .card, body main .projects-section #game .project-container .card, body main .projects-section #others .project-container .card {
+  position: relative;
+  border: 0 !important;
+  border-radius: 0 !important;
+  margin-bottom: 8rem !important;
+}
+
+body main .projects-section #all .project-container .card:hover .name, body main .projects-section #website .project-container .card:hover .name, body main .projects-section #mobileapp .project-container .card:hover .name, body main .projects-section #webapp .project-container .card:hover .name, body main .projects-section #game .project-container .card:hover .name, body main .projects-section #others .project-container .card:hover .name {
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+body main .projects-section #all .project-container .card img, body main .projects-section #website .project-container .card img, body main .projects-section #mobileapp .project-container .card img, body main .projects-section #webapp .project-container .card img, body main .projects-section #game .project-container .card img, body main .projects-section #others .project-container .card img {
+  cursor: pointer;
+}
+
+body main .projects-section #all .project-container .card .name, body main .projects-section #website .project-container .card .name, body main .projects-section #mobileapp .project-container .card .name, body main .projects-section #webapp .project-container .card .name, body main .projects-section #game .project-container .card .name, body main .projects-section #others .project-container .card .name {
+  padding: 2rem !important;
+  color: white;
+  background-color: #0071BC;
+  position: absolute;
+  left: 0;
+  right: -7%;
+  bottom: -20%;
+  cursor: pointer;
+}
+
+body header .navbar .navbar-brand {
+  font-family: "Pattaya";
+  font-size: 34px;
+  color: black;
+  margin-left: 80px;
+}
+
+body header .navbar .navbar-collapse .navbar-nav {
+  margin-right: 50px !important;
+}
+
+body header .navbar .navbar-collapse .navbar-nav .nav-item {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+body header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+
+body header .navbar .navbar-collapse .navbar-nav .nav-item .spec {
+  color: white;
+  background-color: #0071BC;
+  border-radius: 30px;
+  margin-top: 5px;
+  padding: 3px 15px;
+}
+
+body main .categories .navs-list .navs-item {
+  list-style-type: none;
+  font-family: "Lato";
+  font-size: 14px;
+  color: black;
+  cursor: pointer;
+  padding: 1px 12px;
+  border-radius: 11px;
+}
+
+body main .categories .navs-list .active {
+  color: white;
+  background-color: #0071BC;
+}
+
+body main .projects-section .non-active {
+  display: none;
+}
+
+body main .projects-section .modal-dialog .modal-content .modal-body img {
+  width: 100%;
+}
+
+body main .projects-section .modal-dialog .modal-content .modal-footer button {
+  background-color: #069bff !important;
+  color: white;
+}
+
+body main .projects-section .modal-dialog .modal-content .modal-footer a button {
+  background-color: #0071BC !important;
+  color: white;
+}
+
+body footer {
+  margin-top: 9rem;
+  background-color: #0071BC;
+}
+
+body footer .single-row {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+body footer .single-row .logo a {
+  font-family: "Pattaya";
+  font-size: 34px;
+  color: white;
+  text-decoration: none !important;
+}
+
+body footer .single-row .redaction {
+  color: white;
+  font-family: "Lato Medium";
+}
+
+body footer .single-row .reseaux a {
+  color: white;
+  font-size: 24px;
+  margin: 0px 10px;
+}
+
+body footer .single-row .copyrights {
+  color: white;
+}
+
+body footer .single-row .copyrights a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=portfolio.css.map */
