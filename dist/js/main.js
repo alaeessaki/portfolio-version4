@@ -17,3 +17,5 @@ function getrow(name,image,desc,tech,github){
     }
 
 }
+
+sal();

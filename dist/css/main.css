@@ -35,6 +35,28 @@ body header .navbar .navbar-collapse .navbar-nav .nav-item {
 
 body header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: black;
+  position: relative;
+}
+
+body header .navbar .navbar-collapse .navbar-nav .nav-item .hov::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 5px;
+  left: 0;
+  background-color: #0071BC;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+body header .navbar .navbar-collapse .navbar-nav .nav-item .hov:hover::before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 body header .navbar .navbar-collapse .navbar-nav .nav-item .spec {
@@ -52,7 +74,7 @@ body header .first-section .hero {
 }
 
 body header .first-section .hero img {
-  width: 190px;
+  width: 220px;
   position: relative;
   top: 38%;
   left: 34%;
