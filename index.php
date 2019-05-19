@@ -51,7 +51,7 @@ Database::disconnect();
                     <a class="nav-link" href="pages/portfolio/portfolio.php">Portfolio</a>
                 </li>
                 <li class="nav-item mr-4">
-                    <a class="nav-link spec" href="#">Contact</a>
+                    <a class="nav-link spec" href="pages/contact/contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -244,7 +244,7 @@ Database::disconnect();
 
         <!-- See more button -->
         <div class="af-suite text-center mb-5 mt-5">
-            <a href="#">See More</a>
+            <a href="pages/portfolio/portfolio.php">See More</a>
         </div>
     </div>
 </section>
