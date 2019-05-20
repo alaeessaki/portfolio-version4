@@ -42,7 +42,7 @@ require "../../admin/Database.php";
                         <a class="nav-link" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item mr-4">
-                        <a class="nav-link spec" href="../../pages/contact/contact.html">Contact</a>
+                        <a class="nav-link spec" href="../../pages/contact/contact.php">Contact</a>
                     </li>
                 </ul>
             </div>

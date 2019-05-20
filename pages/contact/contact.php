@@ -55,7 +55,7 @@
             <a class="nav-link" href="../portfolio/portfolio.php">Portfolio</a>
           </li>
           <li class="nav-item mr-4">
-            <a class="nav-link spec" href="contact.html">Contact</a>
+            <a class="nav-link spec" href="contact.php">Contact</a>
           </li>
         </ul>
       </div>
