@@ -33,8 +33,7 @@ Database::disconnect();
     <header>
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.php"
-            data-sal="fade" data-sal-delay="150" data-sal-easing="ease-out-bounce" data-sal-duration="800">AE</a>
+            <a class="navbar-brand" href="index.php" data-sal="fade" data-sal-delay="150" data-sal-easing="ease-out-bounce" data-sal-duration="800">AE</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -66,7 +65,7 @@ Database::disconnect();
                 <h4 data-sal="slide-up" data-sal-delay="150" data-sal-easing="ease-out-bounce" data-sal-duration="800">HELLO MY NAME IS ALAE ES-SAKI, I’M 22 YEARS
                     <br data-sal="slide-up" data-sal-delay="150" data-sal-easing="ease-out-bounce" data-sal-duration="800">OLD AND I’M A FULLSTACK DEVELOPER</h4>
                 <div class="d-flex justify-content-center">
-                    <a class="p-4" href="#" data-sal="slide-right" data-sal-delay="400" data-sal-easing="ease-out-bounce" data-sal-duration="800">GET CV</a>
+                    <a class="p-4" href="https://drive.google.com/file/d/1egZS-PLDdvIgSE_qYnr_E36zxs4oG0e3/view" data-sal="slide-right" data-sal-delay="400" data-sal-easing="ease-out-bounce" data-sal-duration="800">GET CV</a>
                     <a class="p-4" href="#" data-sal="slide-left" data-sal-delay="400" data-sal-easing="ease-out-bounce" data-sal-duration="800">HIRE ME</a>
                 </div>
             </div>
@@ -87,18 +86,11 @@ Database::disconnect();
     </header>
 
     <!-- second section -->
-    <section class="decription-section" >
+    <section class="decription-section">
         <div class="single-row" data-sal="fade" data-sal-delay="50" data-sal-easing="ease-out-bounce" data-sal-duration="800">
-            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                est
-                laborum.</p>
-            <a href="#" data-sal="slide-left" data-sal-delay="150" data-sal-easing="ease-out-bounce" data-sal-duration="800">See more about Alae</a>
+            <h4>WHO AM I ?</h4>
+            <p>I'm a full stack web developer passionate about producing high quality responsive websites and exceptional user experience.You can check my GitHub to see my projects, and if you want to know more about me you can visite About section.</p>
+            <a href="pages/about/about.html" data-sal="slide-left" data-sal-delay="150" data-sal-easing="ease-out-bounce" data-sal-duration="800">See more about Alae</a>
         </div>
     </section>
 
@@ -114,37 +106,29 @@ Database::disconnect();
             <div class="card" style="width: 23rem;" data-sal="slide-down" data-sal-delay="100" data-sal-easing="ease-out-bounce" data-sal-duration="800">
                 <div class="card-body">
                     <h5 class="card-title">Back-end</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer
-                        adipiscing elit, sed diam nonummy
-                        nibh euismod tincidunt ut laoreet dolore
-                        magna aliquam erat volutpat.
-                        Ut wisi enim ad minim veniam, quis nostrud exerci
-                        tation ullamcorper suscipit lobortis
-                        Lorem ipsum dolor sit amet, consectetuer
-                        adipiscing elit, sed diam nonummy
-                        nibh euismod tincidunt ut laoreet dolore
-                        magna aliquam erat volutpat.
-                        Ut wisi enim ad minim veniam, quis nostrud exerci
-                        tation ullamcorper suscipit lobortis
+                    <p class="card-text">In back-end development, my current stack involves
+                        PHP 5 and 7.<br>
+                        Nearly every app I have done in the past had the back-end written also by me. In order to improve the development speed, performance and reliability, I have changed languages and frameworks already multiple times, from PHP to python.
 
+                        Luckily, my experience and lessons I learned while doing all those apps, will stay with me and be useful forever, no matter what framework I will use in the next project.
                     </p>
                 </div>
             </div>
             <div class="card mr-sm-0 mr-md-5" style="width: 23rem;" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease-out-bounce" data-sal-duration="800">
                 <div class="card-body">
                     <h5 class="card-title">Design</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer
-                        adipiscing elit, sed diam nonummy
-                        nibh euismod tincidunt ut laoreet dolore
-                        magna aliquam erat volutpat.
-                        Ut wisi enim ad minim veniam, quis nostrud exerci
-                        tation ullamcorper suscipit lobortis
-                        Lorem ipsum dolor sit amet, consectetuer
-                        adipiscing elit, sed diam nonummy
-                        nibh euismod tincidunt ut laoreet dolore
-                        magna aliquam erat volutpat.
-                        Ut wisi enim ad minim veniam, quis nostrud exerci
-                        tation ullamcorper suscipit lobortis
+                    <p class="card-text">Thus, not only I have coded their back-end and front-end code, but often I also had to care about other things needed in a successful web application:
+                    <ul>
+                        <li>good planning of UI and thinking how it affects the UX;</li>
+                        <li>consistency in design and typography;</li>
+                    </ul>
+                    <p>tools i use:</p>
+                    <ul>
+                        <li>Wireframesketcher.</li>
+                        <li>Adobe XD.</li>
+                        <li>inVision Studio</li>
+                        <li>Adobe Illustrator</li>
+                    </ul>
 
                     </p>
                 </div>
@@ -152,19 +136,30 @@ Database::disconnect();
             <div class="card" style="width: 23rem;" data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease-out-bounce" data-sal-duration="800">
                 <div class="card-body">
                     <h5 class="card-title">Other technologies</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetuer
-                        adipiscing elit, sed diam nonummy
-                        nibh euismod tincidunt ut laoreet dolore
-                        magna aliquam erat volutpat.
-                        Ut wisi enim ad minim veniam, quis nostrud exerci
-                        tation ullamcorper suscipit lobortis
-                        Lorem ipsum dolor sit amet, consectetuer
-                        adipiscing elit, sed diam nonummy
-                        nibh euismod tincidunt ut laoreet dolore
-                        magna aliquam erat volutpat.
-                        Ut wisi enim ad minim veniam, quis nostrud exerci
-                        tation ullamcorper suscipit lobortis
-
+                    <p class="card-text">
+                    <p>Conception:</p>
+                    <ul>
+                        <li>UML</li>
+                        <li>Merise</li>
+                        <li>MS project</li>
+                    </ul>
+                    <ul>
+                        <li>Git: github/gitlab</li>
+                        <li>Gulp</li>
+                        <li>grant</li>
+                    </ul>
+                    <p>Other Libraries</p>
+                    <ul>
+                        <li>Laxxx js</li>
+                        <li>Sal Js</li>
+                        <li>AOS Js</li>
+                    </ul>
+                    <p>Other programing languages :</p>
+                    <ul>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>TypeScript</li>
+                    </ul>
                     </p>
                 </div>
             </div>
@@ -284,8 +279,7 @@ Database::disconnect();
                 <a href="#">AE</a>
             </div>
             <div class="redaction mt-4">
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetuer<br>
-                    adipiscing elit, sed diam nonummy.</p>
+                <p class="text-center">email : alaeessaki@gmail.com<br>Num : +2126 93 43 80 16</p>
             </div>
 
             <div class="reseaux d-flex flex-row flex-sm-wrap flex-md-wrap mt-4">

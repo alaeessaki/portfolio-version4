@@ -80,8 +80,8 @@ body main .contact-cont form .form-group .input-group input {
 }
 
 body main .contact-cont form .form-group .input-group input:focus {
-  -webkit-box-shadow: 0px 1px 1px #0071BC inset, 0px 0px 8px #069bff;
-          box-shadow: 0px 1px 1px #0071BC inset, 0px 0px 8px #069bff;
+  -webkit-box-shadow: 0px 1px 1px #0071BC inset, 0px 0px 8px #005791;
+          box-shadow: 0px 1px 1px #0071BC inset, 0px 0px 8px #005791;
 }
 
 body main .contact-cont form .form-group .input-group .input-group-prepend span {
@@ -103,7 +103,7 @@ body main .contact-cont form .form-group .input-group textarea:focus {
 }
 
 body main .contact-cont form .form-group .input-group-spec input {
-  background-color: #069bff;
+  background-color: #005791;
   color: white;
   border: 1px solid #0071BC;
 }
@@ -117,12 +117,12 @@ body main .contact-cont form .form-group .input-group-spec .input-group-prepend 
   cursor: pointer;
 }
 
-body main .contact-cont button {
+body main .contact-cont form button {
   background-color: #0071BC;
   color: white;
 }
 
-body main .contact-cont button:hover {
+body main .contact-cont form button:hover {
   color: white;
 }
 

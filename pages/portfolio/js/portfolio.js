@@ -1,3 +1,5 @@
+
+sal();
 var links = document.querySelectorAll(".cat");
 var active_link;
 var categories = ["all","website","mobileapp","webapp","others","game"];
@@ -14,6 +16,7 @@ links.forEach(element => {
             else{
                 project = document.getElementById(element2);
                 project.classList.remove("non-active");
+                sal();
                
             }
         })

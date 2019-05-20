@@ -14,7 +14,7 @@
 
 
 $primary-color:#0071BC;
-$secondary-color:rgb(6, 155, 255);
+$secondary-color:rgb(0, 87, 145);
 
 body {
     header {
@@ -132,15 +132,15 @@ body {
                         }
                     }
                 }
-            }
-            button{
-                background-color: $primary-color;
-                color: white;
-
-                &:hover{
-                    color:white;
+                button{
+                    background-color: $primary-color;
+                    color: white;
+                    &:hover{
+                        color:white;
+                    }
                 }
             }
+            
         }
     }
     footer{
